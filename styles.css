@@ -1,0 +1,71 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white !important; 
+    border-bottom: 1px solid #ddd; 
+}
+
+
+.navbar a.navbar-brand {
+    color: black !important; 
+    font-weight: bold;
+}
+
+body {
+    background-image: url('10725.jpg');
+    background-size: cover;
+
+    background-position: fixed;
+    background-attachment: fixed;
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+
+.light-gray {
+    background-color: #d3d3d3 !important;
+}
+
+
+.search-bar {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #333;
+}
+
+
+.search-bar::placeholder {
+    color: #6c757d;
+}
+
+
+.card-header {
+    font-weight: bold;
+}
+
+
+#backButton {
+    font-weight: bold;
+}
+.boxx{
+    transition-duration: 0.3s;
+}
+.boxx:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
